@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "compareComply_apikey": {
+    "searchPatterns": [
+      "user-provided::apikey",
+      "cloudfoundry:$['compareComply'][0].credentials.apikey",
+      "env:service_compareComply:$.apikey",
+      "env:compareComply_apikey",
+      "file:/server/localdev-config.json:$.compareComply_apikey"
+    ]
+  },
+  "compareComply": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided::url",
+        "cloudfoundry:compareComply",
+        "env:compareComply_credentials",
+        "file:/server/localdev-config.json:compareComply_credentials"
+      ]
+    }
+  },
+  "compareComply_credentials_password": {
+    "searchPatterns": [
+      "user-provided::credentials_password",
+      "cloudfoundry:$['compareComply'][0].credentials.credentials_password",
+      "env:service_compareComply:$.credentials_password",
+      "env:compareComply_credentials_password",
+      "file:/server/localdev-config.json:$.compareComply_credentials_password"
+    ]
+  },
+  "compareComply_credentials_url": {
+    "searchPatterns": [
+      "user-provided::credentials_url",
+      "cloudfoundry:$['compareComply'][0].credentials.credentials_url",
+      "env:service_compareComply:$.credentials_url",
+      "env:compareComply_credentials_url",
+      "file:/server/localdev-config.json:$.compareComply_credentials_url"
+    ]
+  },
+  "compareComply_credentials_username": {
+    "searchPatterns": [
+      "user-provided::credentials_username",
+      "cloudfoundry:$['compareComply'][0].credentials.credentials_username",
+      "env:service_compareComply:$.credentials_username",
+      "env:compareComply_credentials_username",
+      "file:/server/localdev-config.json:$.compareComply_credentials_username"
+    ]
+  },
+  "compareComply_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided::iam_apikey_description",
+      "cloudfoundry:$['compareComply'][0].credentials.iam_apikey_description",
+      "env:service_compareComply:$.iam_apikey_description",
+      "env:compareComply_iam_apikey_description",
+      "file:/server/localdev-config.json:$.compareComply_iam_apikey_description"
+    ]
+  },
+  "compareComply_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided::iam_apikey_name",
+      "cloudfoundry:$['compareComply'][0].credentials.iam_apikey_name",
+      "env:service_compareComply:$.iam_apikey_name",
+      "env:compareComply_iam_apikey_name",
+      "file:/server/localdev-config.json:$.compareComply_iam_apikey_name"
+    ]
+  },
+  "compareComply_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided::iam_role_crn",
+      "cloudfoundry:$['compareComply'][0].credentials.iam_role_crn",
+      "env:service_compareComply:$.iam_role_crn",
+      "env:compareComply_iam_role_crn",
+      "file:/server/localdev-config.json:$.compareComply_iam_role_crn"
+    ]
+  },
+  "compareComply_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided::iam_serviceid_crn",
+      "cloudfoundry:$['compareComply'][0].credentials.iam_serviceid_crn",
+      "env:service_compareComply:$.iam_serviceid_crn",
+      "env:compareComply_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.compareComply_iam_serviceid_crn"
+    ]
+  },
+  "compareComply_url": {
+    "searchPatterns": [
+      "user-provided::url",
+      "cloudfoundry:$['compareComply'][0].credentials.url",
+      "env:service_compareComply:$.url",
+      "env:compareComply_url",
+      "file:/server/localdev-config.json:$.compareComply_url"
+    ]
+  },
+  "push_apikey": {
+    "searchPatterns": [
+      "user-provided::apikey",
+      "cloudfoundry:$['imfpush'][0].credentials.apikey",
+      "env:service_push:$.apikey",
+      "env:push_apikey",
+      "file:/server/localdev-config.json:$.push_apikey"
+    ]
+  },
+  "push": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided::url",
+        "cloudfoundry:push",
+        "env:push_credentials",
+        "file:/server/localdev-config.json:push_credentials"
+      ]
+    }
+  },
+  "push_appGuid": {
+    "searchPatterns": [
+      "user-provided::appGuid",
+      "cloudfoundry:$['imfpush'][0].credentials.appGuid",
+      "env:service_push:$.appGuid",
+      "env:push_appGuid",
+      "file:/server/localdev-config.json:$.push_appGuid"
+    ]
+  },
+  "push_clientSecret": {
+    "searchPatterns": [
+      "user-provided::clientSecret",
+      "cloudfoundry:$['imfpush'][0].credentials.clientSecret",
+      "env:service_push:$.clientSecret",
+      "env:push_clientSecret",
+      "file:/server/localdev-config.json:$.push_clientSecret"
+    ]
+  },
+  "push_iam_apikey_description": {
+    "searchPatterns": [
+      "user-provided::iam_apikey_description",
+      "cloudfoundry:$['imfpush'][0].credentials.iam_apikey_description",
+      "env:service_push:$.iam_apikey_description",
+      "env:push_iam_apikey_description",
+      "file:/server/localdev-config.json:$.push_iam_apikey_description"
+    ]
+  },
+  "push_iam_apikey_name": {
+    "searchPatterns": [
+      "user-provided::iam_apikey_name",
+      "cloudfoundry:$['imfpush'][0].credentials.iam_apikey_name",
+      "env:service_push:$.iam_apikey_name",
+      "env:push_iam_apikey_name",
+      "file:/server/localdev-config.json:$.push_iam_apikey_name"
+    ]
+  },
+  "push_iam_role_crn": {
+    "searchPatterns": [
+      "user-provided::iam_role_crn",
+      "cloudfoundry:$['imfpush'][0].credentials.iam_role_crn",
+      "env:service_push:$.iam_role_crn",
+      "env:push_iam_role_crn",
+      "file:/server/localdev-config.json:$.push_iam_role_crn"
+    ]
+  },
+  "push_iam_serviceid_crn": {
+    "searchPatterns": [
+      "user-provided::iam_serviceid_crn",
+      "cloudfoundry:$['imfpush'][0].credentials.iam_serviceid_crn",
+      "env:service_push:$.iam_serviceid_crn",
+      "env:push_iam_serviceid_crn",
+      "file:/server/localdev-config.json:$.push_iam_serviceid_crn"
+    ]
+  },
+  "push_plan": {
+    "searchPatterns": [
+      "user-provided::plan",
+      "cloudfoundry:$['imfpush'][0].credentials.plan",
+      "env:service_push:$.plan",
+      "env:push_plan",
+      "file:/server/localdev-config.json:$.push_plan"
+    ]
+  },
+  "push_url": {
+    "searchPatterns": [
+      "user-provided::url",
+      "cloudfoundry:$['imfpush'][0].credentials.url",
+      "env:service_push:$.url",
+      "env:push_url",
+      "file:/server/localdev-config.json:$.push_url"
+    ]
+  },
+  "iotPlatform_apiKey": {
+    "searchPatterns": [
+      "user-provided::apiKey",
+      "cloudfoundry:$['iotPlatform'][0].credentials.apiKey",
+      "env:service_iotPlatform:$.apiKey",
+      "env:iotPlatform_apiKey",
+      "file:/server/localdev-config.json:$.iotPlatform_apiKey"
+    ]
+  },
+  "iotPlatform": {
+    "credentials": {
+      "searchPatterns": [
+        "user-provided::org",
+        "cloudfoundry:iotPlatform",
+        "env:iotPlatform_credentials",
+        "file:/server/localdev-config.json:iotPlatform_credentials"
+      ]
+    }
+  },
+  "iotPlatform_apiToken": {
+    "searchPatterns": [
+      "user-provided::apiToken",
+      "cloudfoundry:$['iotPlatform'][0].credentials.apiToken",
+      "env:service_iotPlatform:$.apiToken",
+      "env:iotPlatform_apiToken",
+      "file:/server/localdev-config.json:$.iotPlatform_apiToken"
+    ]
+  },
+  "iotPlatform_http_host": {
+    "searchPatterns": [
+      "user-provided::http_host",
+      "cloudfoundry:$['iotPlatform'][0].credentials.http_host",
+      "env:service_iotPlatform:$.http_host",
+      "env:iotPlatform_http_host",
+      "file:/server/localdev-config.json:$.iotPlatform_http_host"
+    ]
+  },
+  "iotPlatform_iotCredentialsIdentifier": {
+    "searchPatterns": [
+      "user-provided::iotCredentialsIdentifier",
+      "cloudfoundry:$['iotPlatform'][0].credentials.iotCredentialsIdentifier",
+      "env:service_iotPlatform:$.iotCredentialsIdentifier",
+      "env:iotPlatform_iotCredentialsIdentifier",
+      "file:/server/localdev-config.json:$.iotPlatform_iotCredentialsIdentifier"
+    ]
+  },
+  "iotPlatform_mqtt_host": {
+    "searchPatterns": [
+      "user-provided::mqtt_host",
+      "cloudfoundry:$['iotPlatform'][0].credentials.mqtt_host",
+      "env:service_iotPlatform:$.mqtt_host",
+      "env:iotPlatform_mqtt_host",
+      "file:/server/localdev-config.json:$.iotPlatform_mqtt_host"
+    ]
+  },
+  "iotPlatform_mqtt_s_port": {
+    "searchPatterns": [
+      "user-provided::mqtt_s_port",
+      "cloudfoundry:$['iotPlatform'][0].credentials.mqtt_s_port",
+      "env:service_iotPlatform:$.mqtt_s_port",
+      "env:iotPlatform_mqtt_s_port",
+      "file:/server/localdev-config.json:$.iotPlatform_mqtt_s_port"
+    ]
+  },
+  "iotPlatform_mqtt_u_port": {
+    "searchPatterns": [
+      "user-provided::mqtt_u_port",
+      "cloudfoundry:$['iotPlatform'][0].credentials.mqtt_u_port",
+      "env:service_iotPlatform:$.mqtt_u_port",
+      "env:iotPlatform_mqtt_u_port",
+      "file:/server/localdev-config.json:$.iotPlatform_mqtt_u_port"
+    ]
+  },
+  "iotPlatform_org": {
+    "searchPatterns": [
+      "user-provided::org",
+      "cloudfoundry:$['iotPlatform'][0].credentials.org",
+      "env:service_iotPlatform:$.org",
+      "env:iotPlatform_org",
+      "file:/server/localdev-config.json:$.iotPlatform_org"
+    ]
+  }
+}

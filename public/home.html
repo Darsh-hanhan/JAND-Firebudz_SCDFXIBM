@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Web UI Kit &amp; Dashboard Template based on Bootstrap">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, web ui kit, dashboard template, admin template">
+
+	<link rel="shortcut icon" href="img/firebudz.png" />
+
+	<title>Firebudz Dashboard</title>
+
+	<link href="css/app.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="home.html">
+          <span class="align-middle"><img src= "img/firebudz.png" />Firebudz</span>
+        </a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						Pages
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="home.html">
+              <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
+            </a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="pages-settings.html">
+              <i class="align-middle" data-feather="settings"></i> <span class="align-middle">Settings</span>
+            </a>
+					</li>
+
+				</ul>
+
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle d-flex">
+          <i class="hamburger align-self-center"></i>
+        </a>
+
+				<form class="form-inline d-none d-sm-inline-block">
+					<div class="input-group input-group-navbar">
+						<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+						<div class="input-group-append">
+							<button class="btn" type="button">
+                <i class="align-middle" data-feather="search"></i>
+              </button>
+						</div>
+					</div>
+				</form>
+
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-toggle="dropdown">
+								<div class="position-relative">
+									<i class="align-middle" data-feather="bell"></i>
+									<span class="indicator">4</span>
+								</div>
+							</a>
+							<div class="dropdown-menu dropdown-menu-lg dropdown-menu-right py-0" aria-labelledby="alertsDropdown">
+								<div class="dropdown-menu-header">
+									4 New Notifications
+								</div>
+								<div class="list-group">
+									<a href="#" class="list-group-item">
+										<div class="row no-gutters align-items-center">
+											<div class="col-2">
+												<i class="text-danger" data-feather="alert-circle"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Alert- Oxygen level have dropped to 80%!</div>
+												<div class="text-muted small mt-1">Change your oxygen tank when it reaches 60%</div>
+												<div class="text-muted small mt-1">30m ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row no-gutters align-items-center">
+											<div class="col-2">
+												<i class="text-warning" data-feather="bell"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Message from Headquarters</div>
+												<div class="text-muted small mt-1">Urgent meeting at 6pm later.</div>
+												<div class="text-muted small mt-1">1h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row no-gutters align-items-center">
+											<div class="col-2">
+												<i class="text-warning" data-feather="bell"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Reminder- Drink more water!</div>
+												<div class="text-muted small mt-1">5h ago</div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="list-group-item">
+										<div class="row no-gutters align-items-center">
+											<div class="col-2">
+												<i class="text-danger" data-feather="alert-circle"></i>
+											</div>
+											<div class="col-10">
+												<div class="text-dark">Alert- Entering urban heat island effect area!</div>
+												<div class="text-muted small mt-1">Your entering urban heat island effect area. Do take note of your surroundings!</div>
+												<div class="text-muted small mt-1">14h ago</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="dropdown-menu-footer">
+									<a href="#" class="text-muted">Show all notifications</a>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-toggle="dropdown">
+                <i class="align-middle" data-feather="settings"></i>
+              </a>
+
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+                <img src="img/zachdemp.jpg" class="avatar img-fluid rounded mr-1" alt="Zachary Dempsey" /> <span class="text-dark">Zachary Dempsey</span>
+              </a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle mr-1" data-feather="user"></i> Profile</a>
+								<a class="dropdown-item" href="#"><i class="align-middle mr-1" data-feather="pie-chart"></i> Analytics</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="pages-settings.html"><i class="align-middle mr-1" data-feather="settings"></i> Settings & Privacy</a>
+								<a class="dropdown-item" href="#"><i class="align-middle mr-1" data-feather="help-circle"></i> Help Center</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Log out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<div class="row mb-2 mb-xl-3">
+						<div class="col-auto d-none d-sm-block">
+							<h3><strong>Zachary's</strong>  Analytics Dashboard</h3>
+						</div>
+
+						<div class="col-auto ml-auto text-right mt-n1">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb bg-transparent p-0 mt-1 mb-0">
+									<li class="breadcrumb-item"><a href="#">Dashboards</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Analytics</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xl-6 col-xxl-5 d-flex">
+							<div class="w-100">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="card">
+											<div class="card-body">
+												<h5 class="card-title mb-4">Heart Rate</h5>
+												<h1 class="display-5 mt-1 mb-3">109<small>bpm</small></h1>
+												<div class="mb-1">
+													<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -3.65% </span>
+													<span class="text-muted">Since an hour ago</span>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<h5 class="card-title mb-4">Oxygen level</h5>
+												<h1 class="display-5 mt-1 mb-3">80%</h1>
+												<div class="mb-1">
+													<span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -19.75% </span>
+													<span class="text-muted">Since an hour ago</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="card">
+											<div class="card-body">
+												<h5 class="card-title mb-4">Temperature</h5>
+												<h1 class="display-5 mt-1 mb-3">80°C</h1>
+												<div class="mb-1">
+													<span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> +3.25% </span>
+													<span class="text-muted">Since an hour ago</span>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<h5 class="card-title mb-4">Mission Duration:</h5>
+												<h1 class="display-5 mt-1 mb-3">03:12:39 <small>hours</small></h1>
+												<div class="mb-1">
+													<span class="text-muted">Started 1:48pm</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-6 col-xxl-7">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Heart beat rate</h5>
+								</div>
+								<div class="card-body py-3">
+									<div class="chart chart-sm">
+										<canvas id="chartjs-dashboard-line"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 col-md-6 col-xxl-3 d-flex order-2 order-xxl-3">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Frequent Mission Location</h5>
+								</div>
+								<div class="card-body d-flex">
+									<div class="align-self-center w-100">
+										<div class="py-3">
+											<div class="chart chart-xs">
+												<canvas id="chartjs-dashboard-pie"></canvas>
+											</div>
+										</div>
+
+										<table class="table mb-0">
+											<tbody>
+												<tr>
+													<td>Ang Mo Kio</td>
+													<td class="text-right">5</td>
+												</tr>
+												<tr>
+													<td>Bishan</td>
+													<td class="text-right">8</td>
+												</tr>
+												<tr>
+													<td>Jurong</td>
+													<td class="text-right">7</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-12 col-xxl-6 d-flex order-3 order-xxl-2">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Real-Time</h5>
+								</div>
+								<div class="card-body px-4">
+									<div id="world_map" style="height:350px;"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-xxl-3 d-flex order-1 order-xxl-1">
+							<div class="card flex-fill">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Calendar</h5>
+								</div>
+								<div class="card-body d-flex">
+									<div class="align-self-center w-100">
+										<div class="chart">
+											<div id="datetimepicker-dashboard"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 col-lg-8 col-xxl-9 d-flex">
+							<div class="card flex-fill">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Current mission: AngMoKio Industry</h5>
+								</div>
+								<table class="table table-hover my-0">
+									<thead>
+										<tr>
+											<th>Teammates</th>
+											<th class="d-none d-xl-table-cell">Start Time</th>
+											<th class="d-none d-xl-table-cell">End Time</th>
+											<th>Status</th>
+											<th class="d-none d-md-table-cell">Assignee</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Charles Lee Jia Le</td>
+											<td class="d-none d-xl-table-cell">7.00am</td>
+											<td class="d-none d-xl-table-cell">3.30pm</td>
+											<td><span class="badge badge-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Jay Wai Pee</td>
+										</tr>
+										<tr>
+											<td>Melissa Shu Ke Xin</td>
+											<td class="d-none d-xl-table-cell">9.00am</td>
+											<td class="d-none d-xl-table-cell">5.30pm</td>
+											<td><span class="badge badge-danger">Cancelled</span></td>
+											<td class="d-none d-md-table-cell">Lalisa Manoban</td>
+										</tr>
+										<tr>
+											<td>Lu Ke Ran</td>
+											<td class="d-none d-xl-table-cell">9.00am</td>
+											<td class="d-none d-xl-table-cell">3.30pm</td>
+											<td><span class="badge badge-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Lalisa Manoban</td>
+										</tr>
+										<tr>
+											<td>Xin Liu</td>
+											<td class="d-none d-xl-table-cell">7.00am</td>
+											<td class="d-none d-xl-table-cell">5.30pm</td>
+											<td><span class="badge badge-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">Lalisa Manoban</td>
+										</tr>
+										<tr>
+											<td>Kim Yohan</td>
+											<td class="d-none d-xl-table-cell">9.00am</td>
+											<td class="d-none d-xl-table-cell">3.00pm</td>
+											<td><span class="badge badge-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Lee Kwang Soo</td>
+										</tr>
+										<tr>
+											<td>Kim wooseok</td>
+											<td class="d-none d-xl-table-cell">7.00am</td>
+											<td class="d-none d-xl-table-cell">3.30pm</td>
+											<td><span class="badge badge-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Lee Kwang Soo</td>
+										</tr>
+										<tr>
+											<td>Choi Yena</td>
+											<td class="d-none d-xl-table-cell">7.00am</td>
+											<td class="d-none d-xl-table-cell">3.00pm</td>
+											<td><span class="badge badge-success">Done</span></td>
+											<td class="d-none d-md-table-cell">Jay Wai Pee</td>
+										</tr>
+										<tr>
+											<td>Miles Heizer</td>
+											<td class="d-none d-xl-table-cell">9.00am</td>
+											<td class="d-none d-xl-table-cell">5.30pm</td>
+											<td><span class="badge badge-warning">In progress</span></td>
+											<td class="d-none d-md-table-cell">Lee Kwang Soo</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="col-12 col-lg-4 col-xxl-3 d-flex">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+
+									<h5 class="card-title mb-0">Oxygen Level</h5>
+								</div>
+								<div class="card-body d-flex w-100">
+									<div class="align-self-center chart chart-lg">
+										<canvas id="chartjs-dashboard-bar"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+
+			<footer class="footer">
+				<div class="container-fluid">
+					<div class="row text-muted">
+						<div class="col-6 text-left">
+							<p class="mb-0">
+								<a href="home.html" class="text-muted"><strong>Firebudz</strong></a> &copy;
+							</p>
+						</div>
+						<div class="col-6 text-right">
+							<ul class="list-inline">
+								<li class="list-inline-item">
+									<a class="text-muted" href="#">Support</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#">Help Center</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#">Privacy</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="text-muted" href="#">Terms</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/vendor.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+		$(function() {
+			var ctx = document.getElementById('chartjs-dashboard-line').getContext("2d");
+			var gradient = ctx.createLinearGradient(0, 0, 0, 225);
+			gradient.addColorStop(0, 'rgba(215, 227, 244, 1)');
+			gradient.addColorStop(1, 'rgba(215, 227, 244, 0)');
+			// Line chart
+			new Chart(document.getElementById("chartjs-dashboard-line"), {
+				type: 'line',
+				data: {
+					labels: ["7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"],
+					datasets: [{
+						label: "heart beat per minute(bpm)",
+						fill: true,
+						backgroundColor: gradient,
+						borderColor: window.theme.primary,
+						data: [
+							85,
+							85,
+							92,
+							92,
+							95,
+							120,
+							132,
+							137,
+							130,
+							118,
+							117,
+							129
+						]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					tooltips: {
+						intersect: false
+					},
+					hover: {
+						intersect: true
+					},
+					plugins: {
+						filler: {
+							propagate: false
+						}
+					},
+					scales: {
+						xAxes: [{
+							reverse: true,
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}],
+						yAxes: [{
+							ticks: {
+								stepSize: 1000
+							},
+							display: true,
+							borderDash: [3, 3],
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		$(function() {
+			// Pie chart
+			new Chart(document.getElementById("chartjs-dashboard-pie"), {
+				type: 'pie',
+				data: {
+					labels: ["Ang Mo Kio", "Bishan", "Jurong"],
+					datasets: [{
+						data: [4306, 3801, 1689],
+						backgroundColor: [
+							window.theme.primary,
+							window.theme.warning,
+							window.theme.danger
+						],
+						borderWidth: 5
+					}]
+				},
+				options: {
+					responsive: !window.MSInputMethodContext,
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					cutoutPercentage: 75
+				}
+			});
+		});
+	</script>
+	<script>
+		$(function() {
+			// Bar chart
+			new Chart(document.getElementById("chartjs-dashboard-bar"), {
+				type: 'bar',
+				data: {
+					labels: ["7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"],
+					datasets: [{
+						label: "This year",
+						backgroundColor: window.theme.primary,
+						borderColor: window.theme.primary,
+						hoverBackgroundColor: window.theme.primary,
+						hoverBorderColor: window.theme.primary,
+						data: [100, 99, 97, 92, 88, 88, 86, 83, 83, 83, 82, 80],
+						barPercentage: .75,
+						categoryPercentage: .5
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					scales: {
+						yAxes: [{
+							gridLines: {
+								display: false
+							},
+							stacked: false,
+							ticks: {
+								stepSize: 20
+							}
+						}],
+						xAxes: [{
+							stacked: false,
+							gridLines: {
+								color: "transparent"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		$(function() {
+			$("#world_map").vectorMap({
+				map: "world_mill",
+				normalizeFunction: "polynomial",
+				hoverOpacity: .7,
+				hoverColor: false,
+				regionStyle: {
+					initial: {
+						fill: "#e3eaef"
+					}
+				},
+				markerStyle: {
+					initial: {
+						"r": 9,
+						"fill": window.theme.primary,
+						"fill-opacity": .95,
+						"stroke": "#fff",
+						"stroke-width": 7,
+						"stroke-opacity": .4
+					},
+					hover: {
+						"stroke": "#fff",
+						"fill-opacity": 1,
+						"stroke-width": 1.5
+					}
+				},
+				backgroundColor: "transparent",
+				zoomOnScroll: false,
+				markers: [{
+						latLng: [31.230391, 121.473701],
+						name: "Shanghai"
+					},
+					{
+						latLng: [28.704060, 77.102493],
+						name: "Delhi"
+					},
+					{
+						latLng: [6.524379, 3.379206],
+						name: "Lagos"
+					},
+					{
+						latLng: [35.689487, 139.691711],
+						name: "Tokyo"
+					},
+					{
+						latLng: [23.129110, 113.264381],
+						name: "Guangzhou"
+					},
+					{
+						latLng: [40.7127837, -74.0059413],
+						name: "New York"
+					},
+					{
+						latLng: [34.052235, -118.243683],
+						name: "Los Angeles"
+					},
+					{
+						latLng: [41.878113, -87.629799],
+						name: "Chicago"
+					},
+					{
+						latLng: [51.507351, -0.127758],
+						name: "London"
+					},
+					{
+						latLng: [40.416775, -3.703790],
+						name: "Madrid"
+					}
+				]
+			});
+			setTimeout(function() {
+				$(window).trigger('resize');
+			}, 250)
+		});
+	</script>
+	<script>
+		$(function() {
+			$('#datetimepicker-dashboard').datetimepicker({
+				inline: true,
+				sideBySide: false,
+				format: 'L'
+			});
+		});
+	</script>
+
+</body>
+
+</html>

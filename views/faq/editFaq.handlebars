@@ -1,0 +1,43 @@
+<!--.col-	.col-sm-	.col-md-	.col-lg-	.col-xl- -->
+
+
+<div class="container">
+	<div class="card card-body">
+		<h3>Edit Faq Jot</h3>
+		<form action="/faq/saveEditedFaq?uuid={{faq.uuid}} ?_method=PUT" method="post" id="editFaq">
+			<input type="hidden" name="_method" value="PUT">
+			<div class="form-group">
+				{{!-- Practical 5 Exercise 2: Add a title input text here named 'title'--}}
+				<label class="font-italic" for="question">Question</label>
+				<input class="form-control" type="text" id="question" name="question" value="{{faq.question}}">
+			</div>
+			<div class="form-group mb-4">
+				<label class="font-italic" for="answer">Answer</label>
+				<textarea class="form-control" id="answer" name="answer" rows="2">{{faq.answer}}</textarea>
+			</div>
+	
+			
+			<div class="form-group" style="display:none">
+				<div class="row mb-2">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
+						<label class="font-italic" >Date Created</label>
+						<input id="datepicker" width="200" name="dateRelease" value="{{formatDate faq.dateRelease 'DD/MM/YYYY'}}"  readonly>
+					</div>
+				</div>
+			</div>
+
+			<br>
+			<button id="butEditFaq" type="submit" class="btn btn-primary">Save</button>
+			<button id="butEditFaq" type="reset" class="btn btn-danger" data-toggle="confirmation" href="/faq/listMyFaqs">Cancel</button>
+		</form>
+	</div>
+	</div>
+</div>
+<script>
+		
+$('#datepicker').datepicker({
+	format: 'dd/mm/yyyy',
+	uiLibrary: 'bootstrap4',
+});
+		
+</script>
